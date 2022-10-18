@@ -2,7 +2,6 @@
 
 
 /** Footer Styling **/
-
 html {
     height: 100%;
     box-sizing: border-box;
@@ -22,7 +21,6 @@ html {
     font-family: "Helvetica Neue", Arial, sans-serif;
   }
  
-
   .footer {
     position: absolute;
     right: 0;
