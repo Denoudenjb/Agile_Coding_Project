@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -45,6 +46,88 @@ nav{
     padding: 8px 20px;
     border-radius: 20px;
     text-decoration: none;
-    font-size: 1;
+    font-size: 14px;
 }
-    
+
+.container {
+    padding: 0 7%;
+}   
+
+.header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 22%;
+}
+
+.search-bar{
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-bar form input {
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.search-bar form button{
+    background: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.search-bar form button img{
+    width: 30px;
+    margin-top: 7px;
+}
+
+
+
+
+/* * Footer Styling * */
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+ 
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
+
+.
