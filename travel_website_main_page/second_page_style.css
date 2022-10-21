@@ -28,6 +28,14 @@ nav{
     display: inline-block;
     margin: 10px 30px;
 }
+.register-btn{
+    background: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
 /** to center paragraph above table **/
 .container1 {
     display: flex; 
