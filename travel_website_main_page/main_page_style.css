@@ -145,7 +145,7 @@ a {
 }
 
 /* * LoginBox Styling - Denouden * */
-<style type="text/css">#LoginBox {
+#LoginBox {
   margin: 0;
   margin-left: 40%;
   margin-right: 40%;
@@ -153,8 +153,6 @@ a {
   height: 150px;
   visibility: hidden;
 }
-
-</style>
 
 /* * Footer Styling - Denouden * */
 html {
