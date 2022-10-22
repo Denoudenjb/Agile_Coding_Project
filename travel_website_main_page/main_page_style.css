@@ -97,9 +97,6 @@ nav{
     margin-top: 7px;
 }
 
-
-
-
 /* * Registration Form Styling - Denouden * */
 input[type=text], input[type=password] {
     width: 100%;
@@ -130,12 +127,10 @@ input[type=text], input[type=password] {
     opacity:1;
   }
   
-  /* Add a blue text color to links */
   a {
     color: dodgerblue;
   }
   
-  /* Set a grey background color and center the text of the "sign in" section */
   .signin {
     background-color: #f1f1f1;
     text-align: center;
