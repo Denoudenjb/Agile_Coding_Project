@@ -8,18 +8,8 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="main_page_style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-   
-  <style type="text/css">
-    #LoginBox{
-    margin: 0; 
-    margin-left: 40%; 
-    margin-right: 40%;
-    width: 20%; 
-    height: 150px; 
-    visibility: hidden; 
-    }
-    </style>
 
+    <!--Navigation Bar-->
     <nav>
             <img src="image/logo.png" class="logo">
             <ul class="nav-links">
@@ -33,38 +23,38 @@
 </head>
 
 <body>
+    <!--Registration Form-->
+    <form action="ThirdPage.html" method="post" onsubmit="myFunction()" id="Register">
+        <div class="container">
+        <h1>Register</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        <hr>
+    
+        <p>By creating an account you agree to our <a href="Terms.pdf" 
+            target="popup" 
+            onclick="window.open('Terms.pdf','popup','width=600,height=600'); return false;">
+            Terms & Privacy
+        </a>.</p>
 
-<!--Registration Form-->
-<form action="ThirdPage.html" method="post" onsubmit="myFunction()" id="Register">
-    <div class="container">
-      <h1>Register</h1>
-      <p>Please fill in this form to create an account.</p>
-      <hr>
-  
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" id="email" required>
-  
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-  
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-      <hr>
-  
-      <p>By creating an account you agree to our <a href="Terms.pdf" 
-        target="popup" 
-        onclick="window.open('Terms.pdf','popup','width=600,height=600'); return false;">
-        Terms & Privacy
-      </a>.</p>
+        <button type="" class="registerbtn">Register</button>
+        </div>
+        <div class="container signin">
+        <p>Already have an account? <a href="javascript:login('show');">Sign in</a></p>
+        </div>
+    </form>
 
-      <button type="" class="registerbtn">Register</button>
-    </div>
-    <div class="container signin">
-      <p>Already have an account? <a href="javascript:login('show');">Sign in</a></p>
-    </div>
-  </form>
-
-  <div id="LoginBox"> 
+    <!--Login Form-->
+    <div id="LoginBox"> 
     <form action="ThirdPage.html" method="post" onsubmit="myFunction2()">
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
@@ -75,6 +65,7 @@
     <center><a href="javascript:login('hide');">close</a></center> 
     </div> 
     
+    <!--Login/Close Elements JS-->
     <script language="JavaScript" type="text/javascript">
     function login(showhide){
     if(showhide == "show"){
@@ -87,17 +78,19 @@
     }
     </script>
 
-<Script>
-        function myFunction() {
-          alert("You registered an account on WSUTRAVELPROJECT, before being able to use your account you need to verify that this is your email address.");
-        }
-</Script>
+    <!--Email Registration Alert JS-->
+    <Script>
+            function myFunction() {
+            alert("You created an account on WSUTRAVELPROJECT. Before you are able to login, please check your email for a confirmation link to verify your registration. Thank you!");
+            }
+    </Script>
 
-<Script>
-    function myFunction2() {
-      alert("Incorrect Email/Password combination. Please try Again. ");
-    }
-</Script>
+    <!--Failed Password Alert JS-->
+    <Script>
+        function myFunction2() {
+        alert("Incorrect Email/Password combination. Please Try Again. ");
+        }
+    </Script>
 
 </body>
 
