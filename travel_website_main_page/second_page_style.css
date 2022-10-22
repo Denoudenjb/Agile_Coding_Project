@@ -1,0 +1,90 @@
+
+/** Header format from index for consistancy**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;  
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+    url(image/flightpage.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+.register-btn{
+    background: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+/** to center paragraph above table **/
+.container1 {
+    display: flex; 
+    flex-direction: column; 
+    align-content: center;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+/** button style that links back to first page**/
+.return-btn{
+    background: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+/** t
+/** footer styling from main page **/
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+ 
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
