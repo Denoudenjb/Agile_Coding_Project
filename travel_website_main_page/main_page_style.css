@@ -190,29 +190,10 @@ a {
   margin-right: 40%;
   width: 20%;
   height: 150px;
-  visibility: hidden;
+  display: none;
 }
 
 /* * Footer Styling - Denouden * */
-html {
-  height: 100%;
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  position: relative;
-  margin: 0;
-  padding-bottom: 6rem;
-  min-height: 100%;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-}
-
 .footer {
   position: absolute;
   right: 0;
