@@ -97,8 +97,47 @@ nav{
     margin-top: 7px;
 }
 
+.location-input{
+    flex: 1;
+}
 
+.search-bar form label{
+    font-weight: 600;
+}
 
+/* exclusive */
+
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #333;
+}
+
+.exclusives{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:30px
+
+}
+
+.exclusives img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+.exclusives div{
+    position: relative;
+}
+
+.exclusives div span{
+    position:absolute
+    top:  50%
+    left: 50%
+    transform:translate(-50%,-50%)
+    text-alian: center; 
+    color:black
+}
 
 
 
