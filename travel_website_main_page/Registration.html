@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=S, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
     <link rel="stylesheet" type="text/css" href="main_page_style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
@@ -23,6 +23,9 @@
 
 <body>
     
+<br>
+<br>
+
     <!--Registration Form-->
     <form action="Registration.html" method="post" onsubmit="myFunction()" id="Register">
         <div class="container">
@@ -62,18 +65,18 @@
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
     <button type="submit" class="registerbtn">Login</button>
     </form>
-    <center><a href="javascript:login('hide');">close</a></center> 
+    <center><a href="javascript:login('hide');">Close</a></center> 
     </div> 
     
     <!--Login/Close Elements JS-->
     <script language="JavaScript" type="text/javascript">
     function login(showhide){
     if(showhide == "show"){
-        document.getElementById('LoginBox').style.visibility="visible";
+        document.getElementById('LoginBox').style.display = 'block';
         document.getElementById('Register').style="display:none";
     }else if(showhide == "hide"){
-        document.getElementById('LoginBox').style.visibility="hidden";
-        document.getElementById('Register').style="display:show";
+        document.getElementById('LoginBox').style="display:none";
+        document.getElementById('Register').style.display = 'block';
     }
     }
     </script>
