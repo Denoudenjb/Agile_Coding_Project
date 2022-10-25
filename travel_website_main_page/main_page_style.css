@@ -38,9 +38,29 @@ nav{
     color: #fff;
 }
 
+.nav-links2 li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.nav-links2 li a {
+    text-decoration:none;
+    color: rgb(7, 7, 7);
+}
+
 .register-btn{
     background: #fff;
     color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.register-btn2{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 8px 20px;
     border-radius: 20px;
     text-decoration: none;
@@ -199,6 +219,6 @@ a {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  background-color: #d8d8d8;
   text-align: center;
 }
