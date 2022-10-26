@@ -159,8 +159,6 @@ nav{
 
 
 
-
-
 /* * Registration Form Styling - Denouden * */
 input[type=text],
 input[type=password] {
@@ -218,7 +216,8 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
-  background-color: #d8d8d8;
+  background-color: #000000;
   text-align: center;
+  color: white;
+  font-size: small;
 }
