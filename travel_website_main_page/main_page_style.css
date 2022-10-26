@@ -157,9 +157,61 @@ nav{
     color:black
 }
 
+/* about message  */
+.about-msg{
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+}
+
+.about h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.footer {
+
+  text-align: center;
+  margin: 80px 0 10px;
+  
+}
+
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.footer p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
 
 
-/* * Registration Form Styling - Denouden * */
+
+/* * Footer Styling - Denouden * */
+.footer2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(250, 242, 242);
+    text-align: center;
+    color: rgb(0, 0, 0)
+  }
+
+  /* * Registration Form Styling - Denouden * */
 input[type=text2],
 input[type=password2] {
   width: 100%;
@@ -208,47 +260,4 @@ a {
   width: 20%;
   height: 150px;
   display: none;
-}
-
-
-/* about message  */
-.about-msg{
-    text-align: center;
-    margin: 80px 0;
-    color: #333;
-    font-size: 17px;
-}
-
-.about h2{
-    font-size: 28px;
-    margin-bottom: 30px;
-    font-weight: 500;
-}
-
-/* * Footer Styling - Denouden * */
-.footer {
-
-  text-align: center;
-  margin: 80px 0 10px;
-  
-}
-
-.footer a{
-    text-decoration: none;
-    color: #999;
-    font-size: 22px;
-    margin: 0 10px;
-}
-
-.footer hr{
-    background: #999;
-    height: 1px;
-    width: 100%;
-    border: 0;
-    margin: 20px 0;
-}
-
-.footer p{
-    font-size: 15px;
-    padding-bottom: 15px;
 }
