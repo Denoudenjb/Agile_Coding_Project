@@ -225,7 +225,6 @@ a {
     font-weight: 500;
 }
 
-/* * Footer Styling - Denouden * */
 .footer {
 
   text-align: center;
@@ -252,3 +251,14 @@ a {
     font-size: 15px;
     padding-bottom: 15px;
 }
+
+/* * Footer Styling - Denouden * */
+.footer2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #050505;
+    text-align: center;
+    color: white
+  }
