@@ -153,18 +153,15 @@ nav{
     top:  50%
     left: 50%
     transform:translate(-50%,-50%)
-    text-align: center; 
+    text-align : center; 
     color:black
-    
 }
 
 
 
-
-
 /* * Registration Form Styling - Denouden * */
-input[type=text],
-input[type=password] {
+input[type=text2],
+input[type=password2] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -173,8 +170,8 @@ input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus,
-input[type=password]:focus {
+input[type=text2]:focus,
+input[type=password2]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -213,19 +210,6 @@ a {
   display: none;
 }
 
-/* about message  */
-.about-msg{
-    text-align: center;
-    margin: 80px 0;
-    color: #333;
-    font-size: 17px;
-}
-
-.about h2{
-    font-size: 28px;
-    margin-bottom: 30px;
-    font-weight: 500;
-}
 
 /* about message  */
 .about-msg{
@@ -268,5 +252,3 @@ a {
     font-size: 15px;
     padding-bottom: 15px;
 }
-
-
