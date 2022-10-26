@@ -8,22 +8,19 @@
     <title>Registration</title>
     <link rel="stylesheet" type="text/css" href="main_page_style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-    <!--Navigation Bar-->
-        <nav>
-           <img src="image/logo.png" class="logo">
-            <ul class="nav-links2">
-                <li><a href="index.html" style="text" >Search</a></li>
-                <li><a href="Flights.html">Flights</a></li>
-            </ul>
-            <a href="Registration.html" class="register-btn2">Register Now!</a>
-        </nav>
-    
+   
 </head>
 
 <body>
-    
-<br>
+      <!--Navigation Bar-->
+      <nav>
+        <a href="index.html"><img src="image/logo.png" class="logo"></a>
+            <ul class="nav-links2">
+                <!-- <li><a href="index.html" style="text">Search</a></li>
+                <li><a href="Flights.html">Flights</a></li> -->
+            </ul>
+            <a href="Registration.html" class="register-btn2">Register Now!</a>
+      </nav>
 <br>
 
     <!--Registration Form-->
@@ -34,20 +31,20 @@
         <hr>
     
         <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        <input type="text2" placeholder="Enter Email" name="email" id="email" required>
     
         <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        <input type="password2" placeholder="Enter Password" name="psw" id="psw" required>
     
         <label for="psw-repeat"><b>Repeat Password</b></label>
-        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        <input type="password2" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
         <hr>
     
         <p>By creating an account you agree to our <a href="Terms.pdf" 
             target="popup" 
             onclick="window.open('Terms.pdf','popup','width=600,height=600'); return false;">
-            Terms & Privacy
-        </a>.</p>
+            Terms & Privacy</a>.
+        </p>
 
         <button type="" class="registerbtn">Register</button>
         </div>
@@ -60,9 +57,9 @@
     <div id="LoginBox"> 
     <form action="Registration.html" method="post" onsubmit="myFunction2()">
     <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <input type="text2" placeholder="Enter Email" name="email" id="email" required>
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    <input type="password2" placeholder="Enter Password" name="psw" id="psw" required>
     <button type="submit" class="registerbtn">Login</button>
     </form>
     <center><a href="javascript:login('hide');">Close</a></center> 
@@ -97,7 +94,9 @@
 
     <!--Footer-->
     <footer>
-        <div class="footer">Wichita State University</div>
+        <div class="footer">
+            <p>Wichita State University <br> No Copyright © WSUTRAVELPROJECT <br><a href="https://www.freeprivacypolicy.com/live/58e009e8-6b99-4686-b751-a86689162198" target="_blank" >Privacy Policy</a></p> 
+        </div>
     </footer>
 
 </body>
