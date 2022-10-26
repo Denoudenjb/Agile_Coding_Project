@@ -153,8 +153,9 @@ nav{
     top:  50%
     left: 50%
     transform:translate(-50%,-50%)
-    text-alian: center; 
+    text-align: center; 
     color:black
+    
 }
 
 
@@ -212,13 +213,47 @@ a {
   display: none;
 }
 
+/* about message  */
+.about-msg{
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+}
+
+.about h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
 /* * Footer Styling - Denouden * */
 .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #d8d8d8;
+
   text-align: center;
+  margin: 80px 0 10px;
+  
 }
+
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.footer p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+
+
